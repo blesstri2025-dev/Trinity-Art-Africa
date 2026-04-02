@@ -1,0 +1,8 @@
+{
+  "name": "Trinity Art Africa",
+  "description": "A vibrant digital platform connecting African artists to showcase work, collaborate, and grow together.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

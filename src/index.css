@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terracotta: #E2725B;
+  --color-ochre: #CC7722;
+  --color-umber: #635147;
+  --color-saffron: #F4C430;
+  --color-indigo-afro: #4B0082;
+  --color-emerald-afro: #50C878;
+  --color-cream: #FDF5E6;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-cream text-umber font-sans;
+}
+
+.pattern-bg {
+  background-image: radial-gradient(var(--color-terracotta) 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+  background-color: var(--color-cream);
+}
